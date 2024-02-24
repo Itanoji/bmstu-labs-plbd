@@ -12,13 +12,17 @@ public class Main {
         in.nextLine();
         System.out.println("Введите строки:");
         ArrayList<String> strings = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
+        int sum = 0;
+        for(int i = 0; i < n; i++) {
             strings.add(in.nextLine());
+            sum += strings.get(i).length();
         }
-        System.out.println("Отсортированные строки в порядке возрастания значений их длины");
-        strings.stream().sorted(Comparator.comparingInt(String::length)).forEach(System.out::println);
-        System.out.println("Отсортированные строки в порядке убывания значений их длины");
-        strings.stream().sorted(Comparator.comparingInt(String::length).reversed()).forEach(System.out::println);
+        int avg = sum/n;
+        System.out.println("Средняя длина строк: " + avg);
+        System.out.println("Строки, с длиной больше средней: ");
+        strings.stream().filter(s-> s.length() > avg).forEach(s-> System.out.printf("%s : %d\n", s, s.length()));
+        System.out.println("Строки, с длиной меньше средней: ");
+        strings.stream().filter(s-> s.length() < avg).forEach(s-> System.out.printf("%s - %d\n", s, s.length()));
         printInfo();
 
     }

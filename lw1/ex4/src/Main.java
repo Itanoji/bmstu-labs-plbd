@@ -14,8 +14,7 @@ public class Main {
         for(int i = 0; i < n; i++) {
             nums.add(in.nextInt());
         }
-        System.out.println("Числа, которые делятся на 3 или 9:");
-        //Числа, которые делятся на 9, делятся и на 3 (9 = 3*3)
-        nums.stream().filter(num -> num % 3 == 0).forEach(System.out::println);
+        System.out.println("Числа, которые делятся на 5 и на 7:");
+        nums.stream().filter(num -> num % 35 == 0).forEach(System.out::println);
     }
 }

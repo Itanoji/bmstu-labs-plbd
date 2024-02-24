@@ -1,20 +1,18 @@
-import java.util.Scanner;
-
 public class Main {
+    final static String PASSWORD = "aboba 2323";
+
     public static void main(String[] args) {
-        System.out.println("Введите количество строк для вывода:");
-        Scanner in = new Scanner(System.in);
-        int count = in.nextInt();
-        String str = "Строка для вывода";
-        System.out.println("Вывод с переходом на новую строку:");
-        int i = 0;
-        while(i++ < count) {
-            System.out.println(str);
+        if(args.length == 0) {
+            System.out.println("Пароль не введён!");
+            return;
         }
-        System.out.println("Вывод без перехода на новую строку:");
-        i = 0;
-        while(i++ < count) {
-            System.out.print(str);
+
+        //Пароль может включать пробелы
+        String password = String.join(" ", args);
+        if(password.equals(PASSWORD)) {
+            System.out.println("Пароль введён правильно!");
+        } else {
+            System.out.println("Пароль введён неправильно!");
         }
     }
 }

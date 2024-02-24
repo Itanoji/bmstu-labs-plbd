@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc830ffa-8811-4433-ac65-9530f5fae24b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Отчет_ЛР1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Отчет_ЛР1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex2/ex2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex4/ex4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/ex4/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lw2/Отчет_ЛР2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../lw2/Отчет_ЛР2.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2coSCxpxhCykGTcnvAP8gEZLIW1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/Study/bmstu-labs-plbd/lw1/ex4/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc830ffa-8811-4433-ac65-9530f5fae24b" name="Changes" comment="" />
+      <created>1708776315606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708776315606</updated>
+    </task>
+    <servers />
+  </component>
+</project>

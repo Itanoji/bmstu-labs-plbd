@@ -19,38 +19,26 @@ public class Main {
         System.out.println("Исходный массив:");
         printArr(a);
 
-        int maxUp = 0;
-        int currCountUp = 1;
-        int maxDown = 0;
-        int currCountDown = 1;
-        int prev = a[0][0]; //первый элемент можно не пропускать, так как нужно строгое убывание/возрастание
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                //возрастание
-                if (a[i][j] > prev) {
-                    currCountUp++;
-                } else {
-                    if(currCountUp > maxUp) maxUp = currCountUp;
-                    currCountUp = 1;
+        int sum = 0;
+        for(int i = 0; i < n; i++) {
+            int indFirst = -1, indSecond = -1;
+            for(int j = 0; j < n; j++) {
+                if(a[i][j] > 0) {
+                    if(indFirst == - 1) {
+                        indFirst = j;
+                    } else {
+                        indSecond = j;
+                        for(int k = indFirst+1; k < indSecond; k++) {
+                            sum += a[i][k];
+                        }
+                        break; //нет смысла дальше идти по строке
+                    }
                 }
-
-                //убывание
-                if (a[i][j] < prev) {
-                   currCountDown++;
-                } else {
-                    if(currCountDown > maxDown) maxDown = currCountDown;
-                    currCountDown = 1;
-                }
-                prev = a[i][j];
             }
         }
 
-        //отдельно проверяем после последнего элемента, если там была последовательность
-        if(currCountDown > maxDown) maxDown = currCountDown;
-        if(currCountUp > maxUp) maxUp = currCountUp;
-
-        System.out.printf("Наибольшее число возрастающих элементов матриц, идущих подряд: %d.\n", maxUp);
-        System.out.printf("Наибольшее число убывающих элементов матриц, идущих подряд: %d.\n", maxDown);
+        System.out.println("Сумма элементов матрицы, расположенных между первым и вторым положительными элементами каждой строки:");
+        System.out.println(sum);
 
         printInfo();
     }
@@ -59,7 +47,7 @@ public class Main {
         int rows = arr.length;
         int cols = arr[0].length;
 
-        for (int i = 0; i < rows; i++) {
+        for(int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 System.out.print(arr[i][j] + " ");
             }

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -8,17 +9,13 @@ public class Main {
         if(n < 1) {
             return;
         }
-        int [] nums = new int[n];
+        ArrayList<Integer> nums = new ArrayList<>();
         System.out.println("Введите числа:");
         for(int i = 0; i < n; i++) {
-            nums[i] = in.nextInt();
+            nums.add(in.nextInt());
         }
-        int min = nums[0];
-        int max = nums[0];
-        for(int i = 1; i < n; i++) {
-            if(nums[i] > max) max = nums[i];
-            if(nums[i] < min) min = nums[i];
-        }
-        System.out.printf("Максимальное число: %d, минимальное число: %d.", max, min);
+        System.out.println("Числа, которые делятся на 3 или 9:");
+        //Числа, которые делятся на 9, делятся и на 3 (9 = 3*3)
+        nums.stream().filter(num -> num % 3 == 0).forEach(System.out::println);
     }
 }
