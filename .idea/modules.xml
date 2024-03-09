@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bmstu-labs-plbd.iml" filepath="$PROJECT_DIR$/.idea/bmstu-labs-plbd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw2/ex1/ex1.iml" filepath="$PROJECT_DIR$/lw2/ex1/ex1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw1/ex1/ex11.iml" filepath="$PROJECT_DIR$/lw1/ex1/ex11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw3/ex1/ex12.iml" filepath="$PROJECT_DIR$/lw3/ex1/ex12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw2/ex2/ex2.iml" filepath="$PROJECT_DIR$/lw2/ex2/ex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw1/ex2/ex21.iml" filepath="$PROJECT_DIR$/lw1/ex2/ex21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw3/ex2/ex22.iml" filepath="$PROJECT_DIR$/lw3/ex2/ex22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw2/ex3/ex3.iml" filepath="$PROJECT_DIR$/lw2/ex3/ex3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw3/ex3/ex31.iml" filepath="$PROJECT_DIR$/lw3/ex3/ex31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw1/ex3/ex32.iml" filepath="$PROJECT_DIR$/lw1/ex3/ex32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw2/ex4/ex4.iml" filepath="$PROJECT_DIR$/lw2/ex4/ex4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw3/ex4/ex41.iml" filepath="$PROJECT_DIR$/lw3/ex4/ex41.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw1/ex4/ex42.iml" filepath="$PROJECT_DIR$/lw1/ex4/ex42.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw3/ex5/ex5.iml" filepath="$PROJECT_DIR$/lw3/ex5/ex5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw3/ex6/ex6.iml" filepath="$PROJECT_DIR$/lw3/ex6/ex6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw3/ex7/ex7.iml" filepath="$PROJECT_DIR$/lw3/ex7/ex7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lw3/ex8/ex8.iml" filepath="$PROJECT_DIR$/lw3/ex8/ex8.iml" />
+    </modules>
+  </component>
+</project>
