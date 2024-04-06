@@ -1,0 +1,11 @@
+Apple banana kiwi strawberry mango
+Арбуз Банан Виноград персик ананас
+elephant, ostrich, iguana, tiger, zebra.
+Яблоко, Огурец, Инжир, картофель, томат.
+umbrella parasol raincoat
+Утка Жираф крокодил
+
+computer, monitor, keyboard, mouse
+Компьютер, Монитор, Клавиатура, Мышь
+amazingly, every other word is not starting with a vowel
+удивительно, каждое второе слово не начинается с гласной
